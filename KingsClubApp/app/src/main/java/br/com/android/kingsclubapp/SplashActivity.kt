@@ -12,12 +12,12 @@ class SplashActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_splash)
 
-//        Handler().postDelayed({
-//            if (!isFinishing) {
-//                startActivity(Intent(applicationContext, IntroActivity2::class.java))
-//                overridePendingTransition(R.anim.fade_in, R.anim.fade_out)
-//                finish()
-//            }
-//        }, SPLASH_TIME_OUT)
+        Handler().postDelayed({
+            if (!isFinishing) {
+                startActivity(Intent(applicationContext, IntroActivity2::class.java))
+                overridePendingTransition(R.anim.fade_in, R.anim.fade_out)
+                finish()
+            }
+        }, SPLASH_TIME_OUT)
     }
 }

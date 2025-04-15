@@ -1,4 +1,4 @@
-package br.com.android.kingsclubapp
+package br.com.android.kingsclubapp.utils
 
 import android.Manifest
 import android.content.Context

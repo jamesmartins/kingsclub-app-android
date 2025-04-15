@@ -7,6 +7,9 @@ junitVersion = "1.1.5"
 espressoCore = "3.5.1"
 appcompat = "1.7.0"
 material = "1.10.0"
+annotation = "1.9.1"
+recyclerview = "1.4.0"
+constraintlayout = "2.2.1"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -15,6 +18,15 @@ androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "j
 androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
 androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
 material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+androidx-annotation = { group = "androidx.annotation", name = "annotation", version.ref = "annotation" }
+androidx-recyclerview = { group = "androidx.recyclerview", name = "recyclerview", version.ref = "recyclerview" }
+androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+androidx-lifecycle = "androidx.lifecycle:lifecycle-extensions:2.2.0"
+onesignal = "com.onesignal:OneSignal:[5.0.0, 5.99.99]"
+okhttp3 = "com.squareup.okhttp3:okhttp:4.9.0"
+gson = "com.google.code.gson:gson:2.10.1"
+androidx-biometric = "androidx.biometric:biometric:1.2.0-alpha01"
+okhttp-urlconnection = "com.squareup.okhttp:okhttp-urlconnection:2.2.0"
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }

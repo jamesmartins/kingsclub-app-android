@@ -1,13 +1,12 @@
-package br.com.android.kingsclubapp
+package br.com.android.kingsclubapp.utils
 
 
 /**
- * MARCO 2024
+ * ABRIL 2025
  * VERSÃO 1.0 HIBRIDA  BUILD 1
  * TELA DE INTRO(HOME) NATIVA
  * TELA DE LOGIN NATIVA
  * DEMAIS VIEWS = TELA GENERICA COM TOOLBAR + WEBVIEW PARA DEMAIS TELAS
- *
  */
 
 /**
