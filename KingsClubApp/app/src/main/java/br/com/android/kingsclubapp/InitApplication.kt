@@ -27,16 +27,9 @@ class InitApplication : Application() {
         super.onCreate()
         mInstance = this
 
-        // Version 4.x
-//        OneSignal.setLogLevel(OneSignal.LOG_LEVEL.VERBOSE, OneSignal.LOG_LEVEL.NONE)
         // Version 5.x
         OneSignal.Debug.logLevel = LogLevel.VERBOSE
 
-        // OneSignal Initialization
-
-        // Version 4.x
-        // OneSignal.initWithContext(this)
-        // OneSignal.setAppId(ONESIGNAL_APP_ID)
         // Version 5.x
         OneSignal.initWithContext(this, ONESIGNAL_APP_ID)
 

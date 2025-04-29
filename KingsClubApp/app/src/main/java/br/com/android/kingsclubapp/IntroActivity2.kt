@@ -56,7 +56,7 @@ class IntroActivity2 : AppCompatActivity() {
     }
 
     val requestNotificationPermission =
-        registerForActivityResult(ActivityResultContracts.StartActivityForResult()) { result ->
+        registerForActivityResult(ActivityResultContracts.StartActivityForResult()) { _ ->
             if (NotificationManagerCompat.from(applicationContext).areNotificationsEnabled()) {
                 // O usuário concedeu permissão de notificação
                 // Você pode executar ações necessárias aqui
@@ -190,10 +190,10 @@ class IntroActivity2 : AppCompatActivity() {
         var btnLoginMenu = findViewById<View>(R.id.btnLoginMenu)
         txtCadastro = findViewById(R.id.txtCadastro)
         txtFaleConosco = findViewById(R.id.txtFaleConosco)
-        txtParceiro = findViewById(R.id.txtParceiro)
+//        txtParceiro = findViewById(R.id.txtParceiro)
         btnLoginMenu.setOnClickListener {
             startActivity(Intent(applicationContext, LoginActivity2::class.java))
-            overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left)
+            this.overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left)
         }
 
         // Open Cadastro page webview
@@ -202,7 +202,7 @@ class IntroActivity2 : AppCompatActivity() {
             startActivity(Intent(applicationContext, WebViewActivity::class.java)
                 .putExtra("URL_LOAD_CONTENT", mUrl)
                 .putExtra("URL_LOAD_TITLE","Cadastro"))
-            overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left)
+            this.overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left)
         }
 
         // Open Fale Conosco
@@ -215,12 +215,12 @@ class IntroActivity2 : AppCompatActivity() {
         }
 
         // Open Parceiro
-        txtParceiro!!.setOnClickListener {
-            var mUrl = baseURL + mUrlParceiro
-            startActivity(Intent(applicationContext, WebViewActivity::class.java)
-                .putExtra("URL_LOAD_CONTENT", mUrl)
-                .putExtra("URL_LOAD_TITLE","Parceiro"))
-            overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left)
-        }
+//        txtParceiro!!.setOnClickListener {
+//            var mUrl = baseURL + mUrlParceiro
+//            startActivity(Intent(applicationContext, WebViewActivity::class.java)
+//                .putExtra("URL_LOAD_CONTENT", mUrl)
+//                .putExtra("URL_LOAD_TITLE","Parceiro"))
+//            overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left)
+//        }
     }
 }
