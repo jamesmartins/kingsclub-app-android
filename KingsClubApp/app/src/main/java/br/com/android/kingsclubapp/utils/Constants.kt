@@ -43,7 +43,7 @@ const val mUrl_NOVO_MENU = "https://adm.bunkerapp.com.br/app/novoMenu.do"
 /**
  * Url service lagend app
  */
-// 15/09/2022
+// 01/03/2025
 const val mUrlStatic = "https://adm.bunkerapp.com.br/app/intro.do?key=0keurq3V0gU¢"
 
 /**
@@ -53,15 +53,7 @@ const val mUrlUserSearchKeyData = "https://adm.bunker.mk/wsjson/ConsultaCli.do"
 const val mUrlUserPushDataInformation = "https://adm.bunker.mk/wsjson/TokenAppPush.do"
 const val FIRST_LOGIN_DONE = "FIRST_LOGIN_DONE"
 const val VERIFY_KEY_CUSTOMER = "VERIFY_KEY_CUSTOMER"
-const val PROJECT_ID = 219  // ID NUMBER REDE DUQUE PROJECT
-
-// Antiga
-// 2018
-//val mUrlStatic = "http://adm.bunker.mk/appduque/"
-
-// atual nova
-// 15/09/2022
-//val mUrlStatic = "https://adm.bunkerapp.com.br/appduque/"
+const val PROJECT_ID = 219  // KINGS CLUB NUMBER PROJECT
 
 const val CODE_AUTHETICATION = "VVNOMFZHeldxMkVJR1JCWmZkNVpxMU1icHFGRzhROHlXUWZrTnowVEQ4Y0VqekFGWURIUEt3wqLCog=="
 const val CODE_SENDTOKENAPP = "c8KjYkxyemVUaGd4cjRaTUFkcUJNVEZrSE5uZFVEcXgxQVAzYmVRMzBhRmFwNVhpMnhERFpNSGFHSWFvZDRqNHQ3RE9xU1BoWGhFdDDCog%3D%3D"
