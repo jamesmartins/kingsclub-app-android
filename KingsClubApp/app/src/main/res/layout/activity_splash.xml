@@ -5,7 +5,13 @@
     android:layout_height="match_parent"
     android:background="@drawable/intro_3x">
 
-
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/kings_sneakers2x"
+        android:scaleType="fitXY"
+        android:layout_centerInParent="true"
+        />
 
 
 </RelativeLayout>

@@ -9,7 +9,7 @@ import java.util.concurrent.CompletableFuture
 import java.util.concurrent.Executors
 
 
-const val ONESIGNAL_APP_ID = "3761ab4e-4c3b-432e-a69e-f8b792543e44"
+const val ONESIGNAL_APP_ID = "a580829b-437f-459b-b82b-e1f72ae17c11"
 
 val TAG = InitApplication::class.java.simpleName
 
