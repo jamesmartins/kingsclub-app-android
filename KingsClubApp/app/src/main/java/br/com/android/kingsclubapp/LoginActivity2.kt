@@ -53,7 +53,7 @@ class LoginActivity2 : AppCompatActivity(), TextWatcher {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_login3)
+        setContentView(R.layout.activity_login5)
 
         mToolbar = findViewById(R.id.toolbar_login)
         this.setSupportActionBar(mToolbar)
@@ -189,7 +189,7 @@ class LoginActivity2 : AppCompatActivity(), TextWatcher {
         }
     }
 
-    // Login process and send data to rededuque backend
+    // Login process and send data to kings club backend
     private fun doLogin(user : String, passwd: String, hasUserDataSaved: Boolean) {
         if (!isConnected) {
             toast("Falta de Conexão!", Toast.LENGTH_SHORT)
@@ -212,12 +212,12 @@ class LoginActivity2 : AppCompatActivity(), TextWatcher {
         doAuthenticate(user, passwd,  completion = { success: Boolean, user: UserAuthData?, error : String  ->
             if (success){
                 userAuthLogged = user
-                // Get RedeDuque Login User token data
+                // Get Kings Login User token data
                 if (!userAuthLogged!!.idL.isNullOrBlank() && !userAuthLogged!!.key.isNullOrBlank()){
                     //Save Auth Token Cookies
                     saveAuthLoggedUser(userAuthLogged!!.idL, userAuthLogged!!.key)
                 }
-                // Get RedeDuque Personal User Logged data
+                // Get Kings Personal User Logged data
                 var IDUkey = userAuthLogged!!.idU
                 // Verifying on Rede Duque base if exist on RD and OneSignal
                 if (!IDUkey.isNullOrBlank()) {

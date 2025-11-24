@@ -35,6 +35,7 @@ const val mUrlParceiro = "parceiro.do?key=0keurq3V0gU¢&t=SzwrGPtfs£s£UXRLKgEs
 const val mUrlParceiro2 = "parceiro.do?key=0keurq3V0gU¢"
 // fale cosnoco
 const val mUrlFaleConosco = "faleConosco.do?key=0keurq3V0gU¢&t=SzwrGPtfs£s£UXRLKgEsQ6mDRkKtMIiTcG"
+//const val out = "https://adm.bunkerapp.com.br/app/cadastro_V2.do?key=0keurq3V0gU¢&t=SzwrGPtfs£s£UXRLKgEsQ6mDRkKtMIiTcG"
 const val mUrlFaleConosco2 = "faleConosco.do?"
 // novoMenu (navigation view)
 const val mUrl_NOVO_MENU = "https://adm.bunkerapp.com.br/app/novoMenu.do"
@@ -49,13 +50,13 @@ const val mUrlStatic = "https://adm.bunkerapp.com.br/app/intro.do?key=0keurq3V0g
 /**
  * One Signal/ Rede duque Web servives
  */
-const val mUrlUserSearchKeyData = "https://adm.bunker.mk/wsjson/ConsultaCli.do"
-const val mUrlUserPushDataInformation = "https://adm.bunker.mk/wsjson/TokenAppPush.do"
+const val mUrlUserSearchKeyData = "https://adm.bunkerapp.com.br/wsjson/ConsultaCli.do"
+const val mUrlUserPushDataInformation = "https://adm.bunkerapp.com.br/wsjson/TokenAppPush.do"
 const val FIRST_LOGIN_DONE = "FIRST_LOGIN_DONE"
 const val VERIFY_KEY_CUSTOMER = "VERIFY_KEY_CUSTOMER"
 const val PROJECT_ID = 219  // KINGS CLUB NUMBER PROJECT
 
-const val CODE_AUTHETICATION = "VVNOMFZHeldxMkVJR1JCWmZkNVpxMU1icHFGRzhROHlXUWZrTnowVEQ4Y0VqekFGWURIUEt3wqLCog=="
+const val CODE_AUTHETICATION = "UmhWckNSTGlSdUZzwqNPYW9aQXBtNlVwVkJQb1AyWkIzTEo3c8Kjd0Q4NWk3Q3PCo1NSNjZ1cmRYU0JRwqLCog=="
 const val CODE_SENDTOKENAPP = "c8KjYkxyemVUaGd4cjRaTUFkcUJNVEZrSE5uZFVEcXgxQVAzYmVRMzBhRmFwNVhpMnhERFpNSGFHSWFvZDRqNHQ3RE9xU1BoWGhFdDDCog%3D%3D"
 const val CODE_CONSULTACLI = "c8KjYkxyemVUaGd4cjRaTUFkcUJNVEZrSE5uZFVEcXgxQVAzYmVRMzBhRmFwNVhpMnhERFpNSGFHSWFvZDRqNHQ3RE9xU1BoWGhFdDDCog%3D%3D"
 

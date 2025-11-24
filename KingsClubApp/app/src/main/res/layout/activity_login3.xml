@@ -118,7 +118,7 @@
                     android:layout_below="@+id/fieldPassword"
                     android:layout_weight="1"
                     android:textSize="14sp"
-                    android:gravity="center"
+                    android:gravity="left"
                     android:layout_marginStart="25dp"
                     android:layout_marginEnd="25dp" />
 
@@ -128,27 +128,30 @@
                     android:layout_width="fill_parent"
                     android:layout_height="50dp"
                     android:layout_below="@+id/txtCheckLogin"
-                    android:layout_marginLeft="45dp"
-                    android:layout_marginRight="45dp"
+                    android:layout_marginLeft="35dp"
+                    android:layout_marginRight="35dp"
                     android:background="@drawable/btn_login_entrar"
                     android:backgroundTint="@color/colorPrimary"
+                    android:textColor="@android:color/white"
                     android:text="Entrar"
-                    android:layout_marginTop="30dp"
-                    android:textColor="@android:color/white" />
+                    android:layout_marginTop="30dp"/>
 
-            <TextView
+            <Button
                     android:id="@+id/txtRememberPassword"
                     fontPath="fonts/Avenir.ttc"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="fill_parent"
+                    android:layout_height="50dp"
                     android:layout_below="@+id/btnLogin"
+                    android:layout_marginLeft="35dp"
+                    android:layout_marginRight="35dp"
+                    android:layout_marginTop="15dp"
                     android:gravity="center"
                     android:paddingTop="10dp"
-                    android:layout_marginTop="15dp"
-                    android:text="Esqueci minha senha"
-                    android:textColor="@color/text_recovery_passwd"
-                    android:textSize="13sp"
-                    android:layout_centerInParent="true" />
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/btn_login_recover"
+                    android:backgroundTint="@color/underline_color"
+                    android:textColor="@color/underline_color"
+                    android:text="Esqueci minha senha" />
 
             <LinearLayout
                     android:id="@+id/pnlBottom"
@@ -192,7 +195,7 @@
                         android:paddingTop="10dp"
                         android:scrollHorizontally="true"
                         android:text="Cadastre-se"
-                        android:textColor="@color/text_recovery_passwd" />
+                        android:textColor="@color/colorPrimary" />
             </LinearLayout>
 
         </RelativeLayout>

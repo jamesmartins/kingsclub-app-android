@@ -8,6 +8,7 @@ import android.os.Bundle
 import android.provider.Settings
 import android.util.Log
 import android.view.View
+import android.widget.Button
 import android.widget.TextView
 import android.widget.Toast
 import androidx.activity.result.contract.ActivityResultContracts
@@ -36,7 +37,7 @@ import java.util.function.Consumer
 class IntroActivity2 : AppCompatActivity() {
     private val TAG = IntroActivity2::class.java.simpleName
     private var isConnected = false
-    private var txtCadastro: TextView? = null
+    private var txtCadastro: Button? = null
     private var txtFaleConosco: TextView? = null
     private var txtParceiro: TextView? = null
     private val PERMISSION_REQUEST_CODE = 100
@@ -188,7 +189,7 @@ class IntroActivity2 : AppCompatActivity() {
 
     fun initViews(){
         var btnLoginMenu = findViewById<View>(R.id.btnLoginMenu)
-        txtCadastro = findViewById(R.id.txtCadastro)
+        txtCadastro = findViewById(R.id.btnCadastrarseMenu)
         txtFaleConosco = findViewById(R.id.txtFaleConosco)
 //        txtParceiro = findViewById(R.id.txtParceiro)
         btnLoginMenu.setOnClickListener {

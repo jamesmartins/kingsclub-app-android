@@ -31,8 +31,8 @@ android {
             was the last version with biometria
             was the last version with OneSignal without location services
         */
-        versionCode = 1
-        versionName = "1.0"
+        versionCode = 3
+        versionName = "2.3"
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
 

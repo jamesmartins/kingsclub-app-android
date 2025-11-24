@@ -35,12 +35,11 @@ class WebViewActivity : AppCompatActivity() {
 
         this.supportActionBar?.setDisplayHomeAsUpEnabled(true)
         this.supportActionBar?.setElevation(TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP,
-            60F, getResources().getDisplayMetrics()));
+            65F, getResources().getDisplayMetrics()));
         this.supportActionBar?.title = mUrlTitle
         this.supportActionBar?.setHomeAsUpIndicator(R.drawable.ic_back)
 
         initViews()
-
         loadContent(mUrlLoading!!)
     }
 
