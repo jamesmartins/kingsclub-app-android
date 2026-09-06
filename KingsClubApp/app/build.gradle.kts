@@ -17,12 +17,12 @@ plugins {
 
 android {
     namespace = "br.com.android.kingsclubapp"
-    compileSdk = 35
+    compileSdk = 36
 
     defaultConfig {
         applicationId = "br.com.android.kingsclubapp"
         minSdk = 26
-        targetSdk = 35
+        targetSdk = 36
         /*1.0.0 version with js webinterface/
             version with permission post notifications and v>=13
             version with new Firebase/OneSignal integrations
@@ -46,16 +46,17 @@ android {
         }
     }
     compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_11
-        targetCompatibility = JavaVersion.VERSION_11
+        sourceCompatibility = JavaVersion.VERSION_17
+        targetCompatibility = JavaVersion.VERSION_17
     }
     kotlinOptions {
-        jvmTarget = "11"
+        jvmTarget = "17"
     }
 }
 
 dependencies {
     implementation(libs.androidx.core.ktx)
+    implementation(libs.androidx.activity.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
     implementation(libs.androidx.annotation)
